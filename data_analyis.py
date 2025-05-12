@@ -250,8 +250,8 @@ def extract_first_code_block(text: str) -> str:
 # === Main Streamlit App ===============================================
 
 def main():
-    st.set_page_config(page_title=" System Anomaly detector ", layout="centered")
-    st.title("📊 System Anomaly detector ")
+    st.set_page_config(page_title=" EDA Made Easy : Data Science Tool  ", layout="centered")
+    st.title("📊 EDA Made Easy : Data Science Tool ")
 
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
     if uploaded_file is not None:
