@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from typing import List, Dict, Any, Tuple
 import numpy as np
 import matplotlib.pyplot as plt
-import sklearn
+
 
 # === Configuration ===
 api_key=os.environ.get("nvidia_API_KEY")
